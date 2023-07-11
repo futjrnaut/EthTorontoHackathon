@@ -32,6 +32,13 @@ Users AREN'T PLAYERS, they're INVESTORS
 > - Craft & Set traps for Offensive Galaxers trying to take your zone
 > - Craft and Provide PowerUps for Defenders that want to add to your zone!
 
+### Own the ZONE, Command the DIMENSION
+> - When you command a zone you will be able to put your own AR Portal or Experience in that zone
+> - Inside Portals we'll be syncing Google Ads and other revenue generating advert apis
+> - Galaxers who set Portals will earn from views when others see their ads. 
+
+# AR ADVERTISING WILL BE A MULTITRILLION DOLLAR INDUSTRY
+
 # Token Economy 
 > - Stake your Galaxer GLXR tokens into the [Cosmic Crucible](https://github.com/GalaxerGames/claim/blob/tests/contracts/CosmicCrucible.sol) to issue NebulaNotes used to buy Materials to craft PowerUps and Traps
 
