@@ -10,8 +10,11 @@ Read the WhitePaper [Here](https://nftstorage.link/ipfs/)
 
 See our Walkthrough Deck [Here](https://nftstorage.link/ipfs/)
 
-Watch our Map Video Walkthrough [Here](https://youtu.be/DGpTj-6RvG8)
-Watch our Companion App Walkthrough [Here](https://youtube.com/shorts/Ue5ZP5VcJ7I?feature=share)
+START by Watching our Portal Video [Here](https://youtu.be/P5Nfc1GK4D4)
+
+SEE GAMEPLAY by Watching our Map Video Walkthrough [Here](https://youtu.be/DGpTj-6RvG8)
+
+SEE OUR IDEA by Watching our Companion App Walkthrough [Here](https://youtube.com/shorts/Ue5ZP5VcJ7I?feature=share)
 
 
 # Understanding the model 
