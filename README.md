@@ -51,13 +51,13 @@ Nebula Notes are transferrable and you transfer your right to the underlying GLX
    [Youtube](https://www.youtube.com/galaxer-glxr)
    [Discord](https://discord.gg/rYWQgAtU)
     
-### AI meets human wisdom. Resolve AI-Oracle conflicts fairly. Human judges, prosecutors, defenders, jurors, and bailiffs on Optimism-Goerli, Linea, Scroll and Goerli blockchains. Incentivized prediction market. Empowering governance and dispute resolution. Leading AI conflict resolution on blockchain. 
+### AR meets Async Warfare. Empowering players to become mixed reality land owners.  
  
 ## Abstract
-Kangaroo Court is a revolutionary platform that combines AI-driven technologies with the wisdom and judgments of human actors, promoting fair and transparent resolution of conflicts between Artificial Intelligences (AIs) and smart contracts. The Optimism-Goerli blockchain-based platform features a legal framework whereby human actors act as judges, prosecutors, defenders, jurors and bailiffs to resolve claims lodged by prosecutors against AIs or smart contracts. Additionally, Kangaroo Court introduces an incentivized prediction market to enhance user engagement and ensure participants are properly rewarded for their contributions. By empowering human actors to participate actively in dispute resolution on a distributed platform, Kangaroo Court is poised to become the leading AI governance and conflict resolution system in the blockchain space. Through further expansion of its user base, innovations in its features, and an expanded pool of human actors, Kangaroo Court will serve as a bedrock for trustless adjudication.
+Galaxer is a revolutionary platform that combines AR-driven technologies with the presence of human players, promoting fair and transparent land conflicts between Galaxers. 
 
 ## Repo Structure
-The Current implementation of <Kangaroo Court> relies on the following repositories : 
+The Current implementation of <Galaxer> relies on the following repositories : 
 - [MAP POC](https://github.com/GalaxerGames/galaxer-hub)
 - [Smart Contracts for Tokens](https://github.com/GalaxerGames/claim/tree/tests/contracts)
 - [Companion App](https://github.com/GalaxerGames/mobile)
