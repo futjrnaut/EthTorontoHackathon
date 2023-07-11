@@ -6,164 +6,40 @@
 
 # Get Started
 
-Read the WhitePaper [Here](https://nftstorage.link/ipfs/bafybeidhkk3xn2vqu5ah2tvuetjw5rtnc55uadmvomhsst6rt7testtmhu)
-
-See our Walkthrough Deck [Here](https://nftstorage.link/ipfs/bafybeihcyeqrjzoruawu4g4yfydjs75nabrhoz3apw7t2pjzgrahshbtgm)
-
-Watch our Video Walkthrough [Here](https://youtu.be/Yo6IA5yI3oc)
-
-
-# Understanding the model 
-
-# Human Owned Roles:
-- Defendant 
-    > Deposits OPGETH (APE to be available on future production along with other assets) and Claim that APE is DEAD or NOT DEAD
-    > Starts a Court Proceeding (Mints a Batch of NFTs) to specified addresses
-    > > Onchain tx
-- Defense
-    > Proposes a defandant's claim to be true (Not Guilty) 
-    > > On Chain TX
-    
-    > Earns a fee for picking up the case (pushed to future production)
-- Prosecutor
-    > Disputes claims to be false (Guilty)
-    > > On Chain TX
-    
-    > Earns a fee for picking up the case (pushed to future production)
-- Jury 1 
-   >  Votes on Boolean (Not Guilty / Guilty)  
-   > > This is an [Attestation](https://optimism-goerli.easscan.org/schema/view/0xb50db0f640c9e9d6f22efa9ac2cdb347d62a8253ccbd0a8cbaa1b42bf85b28f4)
-
-   >  Minted a POAP (pushed to future production)
-- Jury 2
-   >  Votes on Boolean (Not Guilty / Guilty)
-   > > This is an [Attestation](https://optimism-goerli.easscan.org/schema/view/0xfdf312958f2f6e8ebea5130060e3c902d84ad66084cf1277610d16f503876221)
-
-   >  Minted a POAP (pushed to future production)
-- Jury 3
-   >  Votes on Boolean (Not Guilty / Guilty) 
-   > > This is an [Attestation]()
-
-   >  Minted a POAP (pushed to future production)
-- Judge
-   >  Final Proceeding on Not Guilty / Guilty 
-   >  & Assigns TimeLock of Staked Asset (Forced 0 if Not Guilty) 
-   > > This is an [Attestation](https://optimism-goerli.easscan.org/schema/view/0xbf564b3ed16b42c3bcfad0e6f5f6016b9657dabc57a4c4e37706b6d017918a55)
-
-- Bailiff
-   > Executes Judge's Final Verdict
-   > > Onchain TX
-
-### Defandant Earns some yield if Not Guilty (pushed to future production)
-
-# Socials 
-   [Twitter](https://twitter.com/KangarooCourtAI)
-   [Telegram](https://t.me/kangaroocourtai)
-   [Youtube](https://www.youtube.com/@KangarooCourtAI)
-   [Discord](https://discord.gg/s5XDKGAFkg)
-    
-### AI meets human wisdom. Resolve AI-Oracle conflicts fairly. Human judges, prosecutors, defenders, jurors, and bailiffs on Optimism-Goerli, Linea, Scroll and Goerli blockchains. Incentivized prediction market. Empowering governance and dispute resolution. Leading AI conflict resolution on blockchain. 
- 
-## Abstract
-Kangaroo Court is a revolutionary platform that combines AI-driven technologies with the wisdom and judgments of human actors, promoting fair and transparent resolution of conflicts between Artificial Intelligences (AIs) and smart contracts. The Optimism-Goerli blockchain-based platform features a legal framework whereby human actors act as judges, prosecutors, defenders, jurors and bailiffs to resolve claims lodged by prosecutors against AIs or smart contracts. Additionally, Kangaroo Court introduces an incentivized prediction market to enhance user engagement and ensure participants are properly rewarded for their contributions. By empowering human actors to participate actively in dispute resolution on a distributed platform, Kangaroo Court is poised to become the leading AI governance and conflict resolution system in the blockchain space. Through further expansion of its user base, innovations in its features, and an expanded pool of human actors, Kangaroo Court will serve as a bedrock for trustless adjudication.
-
-## Repo Structure
-The Current implementation of <Kangaroo Court> relies on the following repositories : 
-- [Oracle](https://github.com/Kangaroo-Court/oracle)
-> Refactored UMA Governance with Prediction Betting 
-- [NFTs](https://github.com/Kangaroo-Court/court-sc)
-> Role Based NFTs for 
-- [Front End](https://github.com/Kangaroo-Court/kc-frontend)
-> Next.js framework for interacting with the smart contracts
-> Based on the [Figma](https://www.figma.com/file/ttwtDiCW7wKOB6oUSGTY4K/KANGA?type=design&node-id=0%3A1&t=K5ejs8hsAv3bXMUR-1)
-    
-## Smart Contract Locations
-- Optimism-Goerli
-    > [NFT](https://goerli-optimism.etherscan.io/token/0xa70c15571aa9dfcab960dca494bd7c99bccc79ab)
-
-    > [Oracle](https://goerli-optimism.etherscan.io/) 
-- Scroll
-    > [NFT](https://blockscout.scroll.io/address/0x04B022a51E4413181D8BeF4C06eC642a2C107e3F/tokens/0xd80c08aa35c57c54c2abb59264a5185e5b0f764b/token-transfers#address-tabs)
-    
-    > [Oracle]()
-- Linea
-    > [NFT](https://explorer.goerli.linea.build/address/0xBB9C4401D615F502581396f82931C7e9a46853B1)
-    
-    > [Oracle]()
-
-## How its made: 
-
-## The development of Galaxer utilizes a combination of smart contracts, oracles, the front-end framework Next.js, the [Ethereum Attestation Service](https://attest.sh) and [Chainlink](https://chain.link/) Price Oracle sourced from [TheGraph](https://thegraph.com/hosted-service/subgraph/openpredict/chainlink-prices-subgraph), Android Studio / Android AR tools to create a comprehensive and fun game.
-
-Smart contracts are tested using the Har, [Linea](https://explorer.goerli.linea.build/address/0xBB9C4401D615F502581396f82931C7e9a46853B1), and [Scroll](https://blockscout.scroll.io/address/0x04B022a51E4413181D8BeF4C06eC642a2C107e3F/tokens/0xd80c08aa35c57c54c2abb59264a5185e5b0f764b/token-transfers#address-tabs) blockchains to establish a multichain underlying legal framework and automate the execution of key processes within Kangaroo Court. These contracts define the roles of human actors, handle the staking and distribution of tokens, manage the flow of information between participants, and facilitate the resolution of claims.
-
-Oracles play a crucial role in connecting real-world data with the blockchain. They provide a bridge between external information sources and the smart contracts, ensuring accurate and reliable data inputs for decision-making. Oracles are responsible for fetching data related to the claims, such as cryptocurrency prices or contract behavior, enabling the AI-driven components and human actors to make informed judgments.
-
-The front-end framework, such as Next.js, is utilized to create a user-friendly interface for interacting with Kangaroo Court. It allows users to access the platform, submit claims, participate in the prediction market, and engage in the governance processes. The front-end interface seamlessly integrates with the blockchain infrastructure, enabling real-time updates, and providing an intuitive user experience.
-
-AI tools are employed within Kangaroo Court to enhance decision-making processes. AIs can be used to analyze claim-related data, identify patterns, and provide insights to support the arguments presented by the prosecution and defense. These AI-driven tools assist human actors in formulating stronger cases, improving the efficiency and accuracy of the overall adjudication process.
-
-By combining smart contracts, oracles, a front-end framework like Next.js, and AI tools, Kangaroo Court achieves a powerful and comprehensive platform. The smart contracts provide the foundation for the legal processes, while oracles ensure the accuracy and reliability of external data. The front-end framework enhances user interaction and accessibility, while AI tools augment decision-making capabilities. Together, these components create a robust ecosystem that promotes fair and efficient conflict resolution between AIs and Oracle smart contracts, while engaging users through the prediction market and inc# Kangaroo Court 🦘
-
-`AI is Guilty Until Proven Innocent by Humans`
-
-# Get Started
-
 Read the WhitePaper [Here](https://nftstorage.link/ipfs/)
 
-See our Pitch Deck [Here](https://nftstorage.link/ipfs/)
+See our Walkthrough Deck [Here](https://nftstorage.link/ipfs/)
 
-Watch our Video Walkthrough [Here](https://youtu.be/Yo6IA5yI3oc)
+Watch our Map Video Walkthrough [Here](https://youtu.be/DGpTj-6RvG8)
+Watch our Companion App Walkthrough [Here](https://youtube.com/shorts/Ue5ZP5VcJ7I?feature=share)
 
 
 # Understanding the model 
 
-# Human Owned Roles:
-- Defendant 
-    > Deposits OPGETH (APE to be available on future production along with other assets) and Claim that APE is DEAD or NOT DEAD
-    > Starts a Court Proceeding (Mints a Batch of NFTs) to specified addresses
-    > > Onchain tx
-- Defense
-    > Proposes a defandant's claim to be true (Not Guilty) 
-    > > On Chain TX
-    
-    > Earns a fee for picking up the case (pushed to future production)
-- Prosecutor
-    > Disputes claims to be false (Guilty)
-    > > On Chain TX
-    
-    > Earns a fee for picking up the case (pushed to future production)
-- Jury 1 
-   >  Votes on Boolean (Not Guilty / Guilty)  
-   > > This is an [Attestation](https://optimism-goerli.easscan.org/schema/view/0xb50db0f640c9e9d6f22efa9ac2cdb347d62a8253ccbd0a8cbaa1b42bf85b28f4)
+# Land Games are BORING
+Traditionally you would buy the land and its all just a money grab by the developers with limited gameplay coming AFTER major sales. 
+Users AREN'T PLAYERS, they're INVESTORS
 
-   >  Minted a POAP (pushed to future production)
-- Jury 2
-   >  Votes on Boolean (Not Guilty / Guilty)
-   > > This is an [Attestation](https://optimism-goerli.easscan.org/schema/view/0xfdf312958f2f6e8ebea5130060e3c902d84ad66084cf1277610d16f503876221)
+`INTRODUCING GALAXER`
+> - Command the Zone
+> - Async WarFare
+> - True Ownership by Proof of Presence 
 
-   >  Minted a POAP (pushed to future production)
-- Jury 3
-   >  Votes on Boolean (Not Guilty / Guilty) 
-   > > This is an [Attestation]()
+### First Galaxer to Command the Zone becomes the Defender 
+> - Craft & Set traps for Offensive Galaxers trying to take your zone
+> - Craft and Provide PowerUps for Defenders that want to add to your zone!
 
-   >  Minted a POAP (pushed to future production)
-- Judge
-   >  Final Proceeding on Not Guilty / Guilty 
-   >  & Assigns TimeLock of Staked Asset (Forced 0 if Not Guilty) 
-   > > This is an [Attestation](https://optimism-goerli.easscan.org/schema/view/0xbf564b3ed16b42c3bcfad0e6f5f6016b9657dabc57a4c4e37706b6d017918a55)
+# Token Economy 
+> - Stake your Galaxer GLXR tokens into the [Cosmic Crucible](https://github.com/GalaxerGames/claim/blob/tests/contracts/CosmicCrucible.sol) to issue NebulaNotes used to buy Materials to craft PowerUps and Traps
 
-- Bailiff
-   > Executes Judge's Final Verdict
-   > > Onchain TX
+Nebula Notes are transferrable and you transfer your right to the underlying GLXR tokens. 
 
-### Defandant Earns some yield if Not Guilty (pushed to future production)
 
 # Socials 
-   [Twitter](https://twitter.com/KangarooCourtAI)
-   [Telegram](https://t.me/kangaroocourtai)
-   [Youtube](https://www.youtube.com/@KangarooCourtAI)
-   [Discord](https://discord.gg/s5XDKGAFkg)
+   [Twitter](https://twitter.com/galaxer_glxr)
+   [Telegram](https://t.me/galaxer_glxr)
+   [Youtube](https://www.youtube.com/galaxer-glxr)
+   [Discord](https://discord.gg/rYWQgAtU)
     
 ### AI meets human wisdom. Resolve AI-Oracle conflicts fairly. Human judges, prosecutors, defenders, jurors, and bailiffs on Optimism-Goerli, Linea, Scroll and Goerli blockchains. Incentivized prediction market. Empowering governance and dispute resolution. Leading AI conflict resolution on blockchain. 
  
@@ -172,275 +48,18 @@ Kangaroo Court is a revolutionary platform that combines AI-driven technologies 
 
 ## Repo Structure
 The Current implementation of <Kangaroo Court> relies on the following repositories : 
-- [Oracle](https://github.com/Kangaroo-Court/oracle)
-> Refactored UMA Governance with Prediction Betting 
-- [NFTs](https://github.com/Kangaroo-Court/court-sc)
-> Role Based NFTs for 
-- [Front End](https://github.com/Kangaroo-Court/kc-frontend)
-> Next.js framework for interacting with the smart contracts
-> Based on the [Figma](https://www.figma.com/file/ttwtDiCW7wKOB6oUSGTY4K/KANGA?type=design&node-id=0%3A1&t=K5ejs8hsAv3bXMUR-1)
+- [MAP POC](https://github.com/GalaxerGames/galaxer-hub)
+- [Smart Contracts for Tokens](https://github.com/GalaxerGames/claim/tree/tests/contracts)
+- [Companion App](https://github.com/GalaxerGames/mobile)
     
-## Smart Contract Locations
-- Optimism-Goerli
-    > [NFT](https://goerli-optimism.etherscan.io/token/0xa70c15571aa9dfcab960dca494bd7c99bccc79ab)
-
-    > [Oracle](https://goerli-optimism.etherscan.io/) 
-- Scroll
-    > [NFT](https://blockscout.scroll.io/address/0x04B022a51E4413181D8BeF4C06eC642a2C107e3F/tokens/0xd80c08aa35c57c54c2abb59264a5185e5b0f764b/token-transfers#address-tabs)
-    
-    > [Oracle]()
-- Linea
-    > [NFT](https://explorer.goerli.linea.build/address/0xBB9C4401D615F502581396f82931C7e9a46853B1)
-    
-    > [Oracle]()
 
 ## How its made: 
 
-## The development of Kangaroo Court utilizes a combination of [UMA](https://uma.xyz) smart contracts, oracles, the front-end framework Next.js, the [Ethereum Attestation Service](https://attest.sh) and [Chainlink](https://chain.link/) Price Oracle sourced from [TheGraph](https://thegraph.com/hosted-service/subgraph/openpredict/chainlink-prices-subgraph) tools to create a comprehensive and efficient platform.
+## The development of Galaxer utilizes a combination of smart contracts, oracles, the front-end framework Next.js, the [Ethereum Attestation Service](https://attest.sh) and Android Studio / Android AR tools to create a comprehensive and fun game.
 
-Smart contracts are deployed on the [Optimism-Goerli](https://goerli-optimism.etherscan.io/token/0xa70c15571aa9dfcab960dca494bd7c99bccc79ab), [Linea](https://explorer.goerli.linea.build/address/0xBB9C4401D615F502581396f82931C7e9a46853B1), and [Scroll](https://blockscout.scroll.io/address/0x04B022a51E4413181D8BeF4C06eC642a2C107e3F/tokens/0xd80c08aa35c57c54c2abb59264a5185e5b0f764b/token-transfers#address-tabs) blockchains to establish a multichain underlying legal framework and automate the execution of key processes within Kangaroo Court. These contracts define the roles of human actors, handle the staking and distribution of tokens, manage the flow of information between participants, and facilitate the resolution of claims.
+Smart contracts are tested using the Hardhat and we're aiming to deploy to Oasys if we are provided support as well as Mainnet, and Polygon to establish a multichain ecosystem. These contracts define the token economy for the benefit of Galaxers wanting to take the zones and set and maintain their stake in the world.
 
-Oracles play a crucial role in connecting real-world data with the blockchain. They provide a bridge between external information sources and the smart contracts, ensuring accurate and reliable data inputs for decision-making. Oracles are responsible for fetching data related to the claims, such as cryptocurrency prices or contract behavior, enabling the AI-driven components and human actors to make informed judgments.
-
-The front-end framework, such as Next.js, is utilized to create a user-friendly interface for interacting with Kangaroo Court. It allows users to access the platform, submit claims, participate in the prediction market, and engage in the governance processes. The front-end interface seamlessly integrates with the blockchain infrastructure, enabling real-time updates, and providing an intuitive user experience.
-
-AI tools are employed within Kangaroo Court to enhance decision-making processes. AIs can be used to analyze claim-related data, identify patterns, and provide insights to support the arguments presented by the prosecution and defense. These AI-driven tools assist human actors in formulating stronger cases, improving the efficiency and accuracy of the overall adjudication process.
-
-By combining smart contracts, oracles, a front-end framework like Next.js, and AI tools, Kangaroo Court achieves a powerful and comprehensive platform. The smart contracts provide the foundation for the legal processes, while oracles ensure the accuracy and reliability of external data. The front-end framework enhances user interaction and accessibility, while AI tools augment decision-making capabilities. Together, these components create a robust ecosystem that promotes fair and efficient conflict resolution between AIs and Oracle smart contracts, while engaging users through the prediction market and incentivized participation.
-    
-    
-## Forward Plans
-    
-We would be thrilled if this became a project that continues onward to be the standard for such things. 
-
-If that comes into the winds we would build the remaning fuctions mentioned above as well as a well formulated RESTful API with documentation to spec for the entire protocol. 
-entivized participation.
-    
-    
-## F# Kangaroo Court 🦘
-
-`AI is Guilty Until Proven Innocent by Humans`
-
-# Get Started
-
-Read the WhitePaper [Here](https://nftstorage.link/ipfs/bafybeidhkk3xn2vqu5ah2tvuetjw5rtnc55uadmvomhsst6rt7testtmhu)
-
-See our Walkthrough Deck [Here](https://nftstorage.link/ipfs/bafybeihcyeqrjzoruawu4g4yfydjs75nabrhoz3apw7t2pjzgrahshbtgm)
-
-Watch our Video Walkthrough [Here](https://youtu.be/Yo6IA5yI3oc)
+The front-end framework, such as Next.js, is utilized to create a user-friendly interface for interacting with Galaxer. It allows users to access the platform, take their zone, participate in the Cosmic Crucible, and engage in the portal. The front-end interface seamlessly integrates with the blockchain infrastructure, enabling real-time updates, and providing an intuitive user experience.
 
 
-# Understanding the model 
-
-# Human Owned Roles:
-- Defendant 
-    > Deposits OPGETH (APE to be available on future production along with other assets) and Claim that APE is DEAD or NOT DEAD
-    > Starts a Court Proceeding (Mints a Batch of NFTs) to specified addresses
-    > > Onchain tx
-- Defense
-    > Proposes a defandant's claim to be true (Not Guilty) 
-    > > On Chain TX
-    
-    > Earns a fee for picking up the case (pushed to future production)
-- Prosecutor
-    > Disputes claims to be false (Guilty)
-    > > On Chain TX
-    
-    > Earns a fee for picking up the case (pushed to future production)
-- Jury 1 
-   >  Votes on Boolean (Not Guilty / Guilty)  
-   > > This is an [Attestation](https://optimism-goerli.easscan.org/schema/view/0xb50db0f640c9e9d6f22efa9ac2cdb347d62a8253ccbd0a8cbaa1b42bf85b28f4)
-
-   >  Minted a POAP (pushed to future production)
-- Jury 2
-   >  Votes on Boolean (Not Guilty / Guilty)
-   > > This is an [Attestation](https://optimism-goerli.easscan.org/schema/view/0xfdf312958f2f6e8ebea5130060e3c902d84ad66084cf1277610d16f503876221)
-
-   >  Minted a POAP (pushed to future production)
-- Jury 3
-   >  Votes on Boolean (Not Guilty / Guilty) 
-   > > This is an [Attestation]()
-
-   >  Minted a POAP (pushed to future production)
-- Judge
-   >  Final Proceeding on Not Guilty / Guilty 
-   >  & Assigns TimeLock of Staked Asset (Forced 0 if Not Guilty) 
-   > > This is an [Attestation](https://optimism-goerli.easscan.org/schema/view/0xbf564b3ed16b42c3bcfad0e6f5f6016b9657dabc57a4c4e37706b6d017918a55)
-
-- Bailiff
-   > Executes Judge's Final Verdict
-   > > Onchain TX
-
-### Defandant Earns some yield if Not Guilty (pushed to future production)
-
-# Socials 
-   [Twitter](https://twitter.com/KangarooCourtAI)
-   [Telegram](https://t.me/kangaroocourtai)
-   [Youtube](https://www.youtube.com/@KangarooCourtAI)
-   [Discord](https://discord.gg/s5XDKGAFkg)
-    
-### AI meets human wisdom. Resolve AI-Oracle conflicts fairly. Human judges, prosecutors, defenders, jurors, and bailiffs on Optimism-Goerli, Linea, Scroll and Goerli blockchains. Incentivized prediction market. Empowering governance and dispute resolution. Leading AI conflict resolution on blockchain. 
- 
-## Abstract
-Kangaroo Court is a revolutionary platform that combines AI-driven technologies with the wisdom and judgments of human actors, promoting fair and transparent resolution of conflicts between Artificial Intelligences (AIs) and smart contracts. The Optimism-Goerli blockchain-based platform features a legal framework whereby human actors act as judges, prosecutors, defenders, jurors and bailiffs to resolve claims lodged by prosecutors against AIs or smart contracts. Additionally, Kangaroo Court introduces an incentivized prediction market to enhance user engagement and ensure participants are properly rewarded for their contributions. By empowering human actors to participate actively in dispute resolution on a distributed platform, Kangaroo Court is poised to become the leading AI governance and conflict resolution system in the blockchain space. Through further expansion of its user base, innovations in its features, and an expanded pool of human actors, Kangaroo Court will serve as a bedrock for trustless adjudication.
-
-## Repo Structure
-The Current implementation of <Kangaroo Court> relies on the following repositories : 
-- [Oracle](https://github.com/Kangaroo-Court/oracle)
-> Refactored UMA Governance with Prediction Betting 
-- [NFTs](https://github.com/Kangaroo-Court/court-sc)
-> Role Based NFTs for 
-- [Front End](https://github.com/Kangaroo-Court/kc-frontend)
-> Next.js framework for interacting with the smart contracts
-> Based on the [Figma](https://www.figma.com/file/ttwtDiCW7wKOB6oUSGTY4K/KANGA?type=design&node-id=0%3A1&t=K5ejs8hsAv3bXMUR-1)
-    
-## Smart Contract Locations
-- Optimism-Goerli
-    > [NFT](https://goerli-optimism.etherscan.io/token/0xa70c15571aa9dfcab960dca494bd7c99bccc79ab)
-
-    > [Oracle](https://goerli-optimism.etherscan.io/) 
-- Scroll
-    > [NFT](https://blockscout.scroll.io/address/0x04B022a51E4413181D8BeF4C06eC642a2C107e3F/tokens/0xd80c08aa35c57c54c2abb59264a5185e5b0f764b/token-transfers#address-tabs)
-    
-    > [Oracle]()
-- Linea
-    > [NFT](https://explorer.goerli.linea.build/address/0xBB9C4401D615F502581396f82931C7e9a46853B1)
-    
-    > [Oracle]()
-
-## How its made: 
-
-## The development of Kangaroo Court utilizes a combination of [UMA](https://uma.xyz) smart contracts, oracles, the front-end framework Next.js, the [Ethereum Attestation Service](https://attest.sh) and [Chainlink](https://chain.link/) Price Oracle sourced from [TheGraph](https://thegraph.com/hosted-service/subgraph/openpredict/chainlink-prices-subgraph) tools to create a comprehensive and efficient platform.
-
-Smart contracts are deployed on the [Optimism-Goerli](https://goerli-optimism.etherscan.io/token/0xa70c15571aa9dfcab960dca494bd7c99bccc79ab), [Linea](https://explorer.goerli.linea.build/address/0xBB9C4401D615F502581396f82931C7e9a46853B1), and [Scroll](https://blockscout.scroll.io/address/0x04B022a51E4413181D8BeF4C06eC642a2C107e3F/tokens/0xd80c08aa35c57c54c2abb59264a5185e5b0f764b/token-transfers#address-tabs) blockchains to establish a multichain underlying legal framework and automate the execution of key processes within Kangaroo Court. These contracts define the roles of human actors, handle the staking and distribution of tokens, manage the flow of information between participants, and facilitate the resolution of claims.
-
-Oracles play a crucial role in connecting real-world data with the blockchain. They provide a bridge between external information sources and the smart contracts, ensuring accurate and reliable data inputs for decision-making. Oracles are responsible for fetching data related to the claims, such as cryptocurrency prices or contract behavior, enabling the AI-driven components and human actors to make informed judgments.
-
-The front-end framework, such as Next.js, is utilized to create a user-friendly interface for interacting with Kangaroo Court. It allows users to access the platform, submit claims, participate in the prediction market, and engage in the governance processes. The front-end interface seamlessly integrates with the blockchain infrastructure, enabling real-time updates, and providing an intuitive user experience.
-
-AI tools are employed within Kangaroo Court to enhance decision-making processes. AIs can be used to analyze claim-related data, identify patterns, and provide insights to support the arguments presented by the prosecution and defense. These AI-driven tools assist human actors in formulating stronger cases, improving the efficiency and accuracy of the overall adjudication process.
-
-By combining smart contracts, oracles, a front-end framework like Next.js, and AI tools, Kangaroo Court achieves a powerful and comprehensive platform. The smart contracts provide the foundation for the legal processes, while oracles ensure the accuracy and reliability of external data. The front-end framework enhances user interaction and accessibility, while AI tools augment decision-making capabilities. Together, these components create a robust ecosystem that promotes fair and efficient conflict resolution between AIs and Oracle smart contracts, while engaging users through the prediction market and inc# Kangaroo Court 🦘
-
-`AI is Guilty Until Proven Innocent by Humans`
-
-# Get Started
-
-Read the WhitePaper [Here](https://nftstorage.link/ipfs/bafybeidhkk3xn2vqu5ah2tvuetjw5rtnc55uadmvomhsst6rt7testtmhu)
-
-See our Walkthrough Deck [Here](https://nftstorage.link/ipfs/bafybeihcyeqrjzoruawu4g4yfydjs75nabrhoz3apw7t2pjzgrahshbtgm)
-
-Watch our Video Walkthrough [Here](https://youtu.be/Yo6IA5yI3oc)
-
-
-# Understanding the model 
-
-# Human Owned Roles:
-- Defendant 
-    > Deposits OPGETH (APE to be available on future production along with other assets) and Claim that APE is DEAD or NOT DEAD
-    > Starts a Court Proceeding (Mints a Batch of NFTs) to specified addresses
-    > > Onchain tx
-- Defense
-    > Proposes a defandant's claim to be true (Not Guilty) 
-    > > On Chain TX
-    
-    > Earns a fee for picking up the case (pushed to future production)
-- Prosecutor
-    > Disputes claims to be false (Guilty)
-    > > On Chain TX
-    
-    > Earns a fee for picking up the case (pushed to future production)
-- Jury 1 
-   >  Votes on Boolean (Not Guilty / Guilty)  
-   > > This is an [Attestation](https://optimism-goerli.easscan.org/schema/view/0xb50db0f640c9e9d6f22efa9ac2cdb347d62a8253ccbd0a8cbaa1b42bf85b28f4)
-
-   >  Minted a POAP (pushed to future production)
-- Jury 2
-   >  Votes on Boolean (Not Guilty / Guilty)
-   > > This is an [Attestation](https://optimism-goerli.easscan.org/schema/view/0xfdf312958f2f6e8ebea5130060e3c902d84ad66084cf1277610d16f503876221)
-
-   >  Minted a POAP (pushed to future production)
-- Jury 3
-   >  Votes on Boolean (Not Guilty / Guilty) 
-   > > This is an [Attestation]()
-
-   >  Minted a POAP (pushed to future production)
-- Judge
-   >  Final Proceeding on Not Guilty / Guilty 
-   >  & Assigns TimeLock of Staked Asset (Forced 0 if Not Guilty) 
-   > > This is an [Attestation](https://optimism-goerli.easscan.org/schema/view/0xbf564b3ed16b42c3bcfad0e6f5f6016b9657dabc57a4c4e37706b6d017918a55)
-
-- Bailiff
-   > Executes Judge's Final Verdict
-   > > Onchain TX
-
-### Defandant Earns some yield if Not Guilty (pushed to future production)
-
-# Socials 
-   [Twitter](https://twitter.com/KangarooCourtAI)
-   [Telegram](https://t.me/kangaroocourtai)
-   [Youtube](https://www.youtube.com/@KangarooCourtAI)
-   [Discord](https://discord.gg/s5XDKGAFkg)
-    
-### AI meets human wisdom. Resolve AI-Oracle conflicts fairly. Human judges, prosecutors, defenders, jurors, and bailiffs on Optimism-Goerli, Linea, Scroll and Goerli blockchains. Incentivized prediction market. Empowering governance and dispute resolution. Leading AI conflict resolution on blockchain. 
- 
-## Abstract
-Kangaroo Court is a revolutionary platform that combines AI-driven technologies with the wisdom and judgments of human actors, promoting fair and transparent resolution of conflicts between Artificial Intelligences (AIs) and smart contracts. The Optimism-Goerli blockchain-based platform features a legal framework whereby human actors act as judges, prosecutors, defenders, jurors and bailiffs to resolve claims lodged by prosecutors against AIs or smart contracts. Additionally, Kangaroo Court introduces an incentivized prediction market to enhance user engagement and ensure participants are properly rewarded for their contributions. By empowering human actors to participate actively in dispute resolution on a distributed platform, Kangaroo Court is poised to become the leading AI governance and conflict resolution system in the blockchain space. Through further expansion of its user base, innovations in its features, and an expanded pool of human actors, Kangaroo Court will serve as a bedrock for trustless adjudication.
-
-## Repo Structure
-The Current implementation of <Kangaroo Court> relies on the following repositories : 
-- [Oracle](https://github.com/Kangaroo-Court/oracle)
-> Refactored UMA Governance with Prediction Betting 
-- [NFTs](https://github.com/Kangaroo-Court/court-sc)
-> Role Based NFTs for 
-- [Front End](https://github.com/Kangaroo-Court/kc-frontend)
-> Next.js framework for interacting with the smart contracts
-> Based on the [Figma](https://www.figma.com/file/ttwtDiCW7wKOB6oUSGTY4K/KANGA?type=design&node-id=0%3A1&t=K5ejs8hsAv3bXMUR-1)
-    
-## Smart Contract Locations
-- Optimism-Goerli
-    > [NFT](https://goerli-optimism.etherscan.io/token/0xa70c15571aa9dfcab960dca494bd7c99bccc79ab)
-
-    > [Oracle](https://goerli-optimism.etherscan.io/) 
-- Scroll
-    > [NFT](https://blockscout.scroll.io/address/0x04B022a51E4413181D8BeF4C06eC642a2C107e3F/tokens/0xd80c08aa35c57c54c2abb59264a5185e5b0f764b/token-transfers#address-tabs)
-    
-    > [Oracle]()
-- Linea
-    > [NFT](https://explorer.goerli.linea.build/address/0xBB9C4401D615F502581396f82931C7e9a46853B1)
-    
-    > [Oracle]()
-
-## How its made: 
-
-## The development of Kangaroo Court utilizes a combination of [UMA](https://uma.xyz) smart contracts, oracles, the front-end framework Next.js, the [Ethereum Attestation Service](https://attest.sh) and [Chainlink](https://chain.link/) Price Oracle sourced from [TheGraph](https://thegraph.com/hosted-service/subgraph/openpredict/chainlink-prices-subgraph) tools to create a comprehensive and efficient platform.
-
-Smart contracts are deployed on the [Optimism-Goerli](https://goerli-optimism.etherscan.io/token/0xa70c15571aa9dfcab960dca494bd7c99bccc79ab), [Linea](https://explorer.goerli.linea.build/address/0xBB9C4401D615F502581396f82931C7e9a46853B1), and [Scroll](https://blockscout.scroll.io/address/0x04B022a51E4413181D8BeF4C06eC642a2C107e3F/tokens/0xd80c08aa35c57c54c2abb59264a5185e5b0f764b/token-transfers#address-tabs) blockchains to establish a multichain underlying legal framework and automate the execution of key processes within Kangaroo Court. These contracts define the roles of human actors, handle the staking and distribution of tokens, manage the flow of information between participants, and facilitate the resolution of claims.
-
-Oracles play a crucial role in connecting real-world data with the blockchain. They provide a bridge between external information sources and the smart contracts, ensuring accurate and reliable data inputs for decision-making. Oracles are responsible for fetching data related to the claims, such as cryptocurrency prices or contract behavior, enabling the AI-driven components and human actors to make informed judgments.
-
-The front-end framework, such as Next.js, is utilized to create a user-friendly interface for interacting with Kangaroo Court. It allows users to access the platform, submit claims, participate in the prediction market, and engage in the governance processes. The front-end interface seamlessly integrates with the blockchain infrastructure, enabling real-time updates, and providing an intuitive user experience.
-
-AI tools are employed within Kangaroo Court to enhance decision-making processes. AIs can be used to analyze claim-related data, identify patterns, and provide insights to support the arguments presented by the prosecution and defense. These AI-driven tools assist human actors in formulating stronger cases, improving the efficiency and accuracy of the overall adjudication process.
-
-By combining smart contracts, oracles, a front-end framework like Next.js, and AI tools, Kangaroo Court achieves a powerful and comprehensive platform. The smart contracts provide the foundation for the legal processes, while oracles ensure the accuracy and reliability of external data. The front-end framework enhances user interaction and accessibility, while AI tools augment decision-making capabilities. Together, these components create a robust ecosystem that promotes fair and efficient conflict resolution between AIs and Oracle smart contracts, while engaging users through the prediction market and incentivized participation.
-    
-    
-## Forward Plans
-    
-We would be thrilled if this became a project that continues onward to be the standard for such things. 
-
-If that comes into the winds we would build the remaning fuctions mentioned above as well as a well formulated RESTful API with documentation to spec for the entire protocol. 
-entivized participation.
-    
-    
-## Forward Plans
-    
-We would be thrilled if this became a project that continues onward to be the standard for such things. 
-
-If that comes into the winds we would build the remaning fuctions mentioned above as well as a well formulated RESTful API with documentation to spec for the entire protocol. 
-orward Plans
-    
-We would be thrilled if this became a project that continues onward to be the standard for such things. 
-
-If that comes into the winds we would build the remaning fuctions mentioned above as well as a well formulated RESTful API with documentation to spec for the entire protocol. 
+By combining smart contracts, satellite gps, a front-end framework like Next.js, and AR tools, Galaxer achieves a powerful and comprehensive platform. The smart contracts provide the foundation for the token economy processes, while GPS ensure the accuracy and reliability of external data. The front-end framework enhances user interaction and accessibility, while AR tools augment reality. Together, these components create a robust ecosystem that promotes fair and efficient zone warfare for players to engage in their society to play rather than just become a boring investor at home. 
