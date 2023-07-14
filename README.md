@@ -1,4 +1,4 @@
-# OasysHackathon
+#Eth Toronto 2023
 
 # Galaxer 🌀 
 
